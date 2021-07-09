@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: serif;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+  padding-top:0;
+  background-color: rgb(56, 73, 85);
+  height: 720px;
+  text-align: center;
+}
+
+.top-wrapper p{
+  font-size: 30px;
+  background-color: rgb(183, 154, 189);
+  font-family:'Times New Roman';
+  color:rgb(236, 239, 243);
+  padding:40px 0px;
+}
+
+span{
+color:rgb(202, 168, 241);
+}
+
+.top-wrapper img{
+  width:500px ;
+  margin-top:50px
+}
+
+.introduction{
+  height:300px;
+  text-align:center;
+  background-image:url(無題196_20210710042906.PNG);
+  background-size: cover;
+  opacity:0.7;
+  padding-top:189px;
+}
+
+.introduce{
+font-size:175%;
+color: rgb(47, 163, 179);
+font-weight: bold;
+line-height:50px;
+letter-spacing:5px;
+}
+
+.main-contents{
+  height:10%;
+  width:100%;
+  padding-top:150px;
+  text-align: center;
+}
+
+.illust{
+float:left;
+width:33.3%;
+}
+
+.illust img{
+position:relative;
+}
+
+.text-contents1{
+  font-size:130%;
+  margin-top:38%;
+  color:rgb(180, 165, 147);
+  font-weight:bolder;
+  letter-spacing:7px;
+}
+
+.text-contents2{
+  font-size:130%;
+  color:rgb(165, 144, 121);
+  font-weight:bolder;
+  letter-spacing:7px;
+}
+
+.text-contents3{
+  font-size:130%;
+  color:rgb(146, 121, 98);
+  font-weight:bolder;
+  letter-spacing:7px;
+  margin-bottom:10%
+}
+
+.after-waord{
+  padding-top:200px;
+}
+
+.band{
+  opacity:0.7;
+}
+
+.container{
+  padding-top:13%;
+  padding-left:1%
+}
+
+.name{
+color: rgb(56, 73, 85);
+font-size:20px;
+font-weight: bolder;
+letter-spacing:4px;
+}
+
+.adress{
+  color: rgb(183, 154, 189);
+  font-size:15px;
+  letter-spacing:2px;
+}
