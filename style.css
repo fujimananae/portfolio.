@@ -117,3 +117,13 @@ letter-spacing:4px;
   font-size:15px;
   letter-spacing:2px;
 }
+
+
+@media(max-width:670px){
+.body{
+  max-width:650px;
+}
+
+.indtoduce{
+  font-size:150%;
+}
