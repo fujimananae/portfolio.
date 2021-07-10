@@ -15,7 +15,7 @@ a {
 header{
   padding-top:0;
   background-color: rgb(56, 73, 85);
-  height: 720px;
+  height:80%;
   text-align: center;
 }
 
@@ -32,11 +32,13 @@ color:rgb(202, 168, 241);
 }
 
 .top-wrapper img{
-  margin-top:50px
+  padding:50px 0px;
+  width:60%;
 }
 
 .introduction{
-  height:300px;
+  padding:10%;
+  height:200px;
   text-align:center;
   background-image:url(無題196_20210710042906.PNG);
   background-size: cover;
@@ -117,44 +119,82 @@ letter-spacing:4px;
   letter-spacing:2px;
 }
 
-
 @media(max-width:670px){
 .body{
   max-width:650px;
 }
 
+.introduction{
+  height:200px;
+  text-align:center;
+  background-image:url(無題196_20210710042906.PNG);
+  background-size: cover;
+  opacity:0.7;
+  padding-top:140px;
+}
+
 .introduce{
-  font-size:100%;
+  font-size:110%;
   color: rgb(47, 163, 179);
   font-weight: bold;
-  line-height:50px;
-  letter-spacing:5px;
+  line-height:40px;
+  letter-spacing:3px;
+  }
+
+  .main-contents{
+    height:10%;
+    width:100%;
+    padding-top:120px;
+    text-align: center;
+  }
+  
+  .illust{
+  width:70%;
+  }
+  
+  .illust img{
+  padding:15% 32%;
   }
 
 .text-contents1{
-  font-size:80%;
-  margin-top:38%;
+  font-size:100%;
+  margin-top:250%;
   color:rgb(180, 165, 147);
   font-weight:bolder;
   letter-spacing:7px;
 }
 
 .text-contents2{
-  font-size:80%;
+  font-size:100%;
   color:rgb(165, 144, 121);
   font-weight:bolder;
   letter-spacing:7px;
 }
 
 .text-contents3{
-  font-size:80%;
+  font-size:100%;
   color:rgb(146, 121, 98);
   font-weight:bolder;
   letter-spacing:7px;
-  margin-bottom:10%
+  margin-bottom:30%
 }
 
+.name{
+  margin-top:10%;
+  color: rgb(56, 73, 85);
+  font-size:18px;
+  font-weight: bolder;
+  letter-spacing:4px;
+  }
+  
+  .adress{
+    color: rgb(183, 154, 189);
+    font-size:14px;
+    letter-spacing:2px;
+  }
+
 }
+
 
 @media(max-width:390px){
   .body{
@@ -168,26 +208,42 @@ letter-spacing:4px;
     line-height:50px;
     letter-spacing:5px;
     }
+
+.main-contents{
+  height:10%;
+  width:100%;
+  padding-top:150px;
+  text-align: center;
+}
+
+.illust{
+float:left;
+width:33.3%;
+}
+
+.illust img{
+position:relative;
+}
   
   .text-contents1{
     font-size:70%;
     margin-top:38%;
     color:rgb(180, 165, 147);
-    font-weight:bolder;
+    font-weight:bold;
     letter-spacing:7px;
   }
   
   .text-contents2{
     font-size:70%;
     color:rgb(165, 144, 121);
-    font-weight:bolder;
+    font-weight:bold;
     letter-spacing:7px;
   }
   
   .text-contents3{
     font-size:70%;
     color:rgb(146, 121, 98);
-    font-weight:bolder;
+    font-weight:bold;
     letter-spacing:7px;
     margin-bottom:10%
   }
