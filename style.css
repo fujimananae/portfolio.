@@ -43,11 +43,11 @@ color:rgb(202, 168, 241);
   background-image:url(無題196_20210710042906.PNG);
   background-size: cover;
   opacity:0.7;
-  padding-top:189px;
+  padding-top:220px;
 }
 
 .introduce{
-font-size:175%;
+font-size:160%;
 color: rgb(47, 163, 179);
 font-weight: bold;
 line-height:50px;
@@ -71,7 +71,7 @@ position:relative;
 }
 
 .text-contents1{
-  font-size:130%;
+  font-size:120%;
   margin-top:38%;
   color:rgb(180, 165, 147);
   font-weight:bolder;
@@ -79,14 +79,14 @@ position:relative;
 }
 
 .text-contents2{
-  font-size:130%;
+  font-size:120%;
   color:rgb(165, 144, 121);
   font-weight:bolder;
   letter-spacing:7px;
 }
 
 .text-contents3{
-  font-size:130%;
+  font-size:120%;
   color:rgb(146, 121, 98);
   font-weight:bolder;
   letter-spacing:7px;
