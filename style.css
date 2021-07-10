@@ -201,51 +201,75 @@ letter-spacing:4px;
     max-width:390px;
   }
   
+  .introduction{
+    height:65px;
+    text-align:center;
+    background-image:url(無題196_20210710042906.PNG);
+    background-size: cover;
+    opacity:0.7;
+    padding-top:40px;
+  }
+  
   .introduce{
-    font-size:80%;
+    font-size:63%;
     color: rgb(47, 163, 179);
     font-weight: bold;
-    line-height:50px;
-    letter-spacing:5px;
+    line-height:35px;
+    letter-spacing:1px;
     }
 
-.main-contents{
-  height:10%;
-  width:100%;
-  padding-top:150px;
-  text-align: center;
-}
-
-.illust{
-float:left;
-width:33.3%;
-}
-
-.illust img{
-position:relative;
-}
+    .main-contents{
+      height:10%;
+      width:100%;
+      padding-top:80px;
+      text-align: center;
+    }
+    
+    .illust{
+    width:70%;
+    }
+    
+    .illust img{
+    padding:15% 32%;
+    }
   
   .text-contents1{
-    font-size:70%;
-    margin-top:38%;
+    font-size:60%;
+    margin-top:250%;
     color:rgb(180, 165, 147);
     font-weight:bold;
-    letter-spacing:7px;
+    letter-spacing:4px;
   }
   
   .text-contents2{
-    font-size:70%;
+    font-size:60%;
     color:rgb(165, 144, 121);
     font-weight:bold;
-    letter-spacing:7px;
+    letter-spacing:4px;
   }
   
   .text-contents3{
-    font-size:70%;
+    font-size:60%;
     color:rgb(146, 121, 98);
     font-weight:bold;
-    letter-spacing:7px;
-    margin-bottom:10%
+    letter-spacing:4px;
+    margin-bottom:30%
   }
+
+  .name{
+    margin-top:10%;
+    color: rgb(56, 73, 85);
+    font-size:13px;
+    font-weight: bolder;
+    letter-spacing:4px;
+    }
+    
+    .adress{
+      color: rgb(183, 154, 189);
+      font-size:8px;
+      letter-spacing:2px;
+    }
+  
+
   
   }
