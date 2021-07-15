@@ -13,18 +13,24 @@ a {
 }
 
 header{
+  position:relative;
   padding-top:0;
   background-color: rgb(56, 73, 85);
-  height:80%;
+  height:150%;
   text-align: center;
 }
 
 .top-wrapper p{
+  position: absolute;
+  top:0px;
   font-size: 30px;
   background-color: rgb(183, 154, 189);
   font-family:'Times New Roman';
   color:rgb(236, 239, 243);
-  padding:40px 0px;
+  padding:2% 45.6%;
+  position: fixed;
+  top:0px;
+  z-index:10;
 }
 
 span{
@@ -32,7 +38,7 @@ color:rgb(202, 168, 241);
 }
 
 .top-wrapper img{
-  padding:50px 0px;
+  padding:10% 0px 4%;
   width:60%;
 }
 
