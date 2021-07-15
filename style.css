@@ -27,10 +27,11 @@ header{
   background-color: rgb(183, 154, 189);
   font-family:'Times New Roman';
   color:rgb(236, 239, 243);
-  padding:2% 45.6%;
+  padding:2% 57% 2% 43%;
   position: fixed;
   top:0px;
   z-index:10;
+  margin:0 auto;
 }
 
 span{
@@ -129,6 +130,28 @@ letter-spacing:4px;
 .body{
   max-width:650px;
 }
+  
+  header{
+  position:relative;
+  padding:0px;
+  background-color: rgb(56, 73, 85);
+  height:150%;
+  text-align: center;
+}
+
+.top-wrapper p{
+  position: absolute;
+  top:0px;
+  font-size:25px;
+  background-color: rgb(183, 154, 189);
+  font-family:'Times New Roman';
+  color:rgb(236, 239, 243);
+  padding:1.5% 70% 1.5% 40%;
+  position: fixed;
+  top:0px;
+  z-index:10;
+  margin:0 auto;
+}
 
 .introduction{
   height:200px;
@@ -206,6 +229,30 @@ letter-spacing:4px;
   .body{
     max-width:390px;
   }
+  
+  header{
+  position:relative;
+  padding:0px;
+  background-color: rgb(56, 73, 85);
+  height:150%;
+  text-align: center;
+}
+
+.top-wrapper p{
+  position: absolute;
+  top:0px;
+  font-size:15px;
+  background-color: rgb(183, 154, 189);
+  font-family:'Times New Roman';
+  color:rgb(236, 239, 243);
+  padding:1% 50% 1% 40%;
+  position: fixed;
+  top:0px;
+  z-index:10;
+  letter-spacing:1px;
+  margin:0 auto;
+}
+
   
   .introduction{
     height:65px;
